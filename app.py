@@ -3,7 +3,8 @@ from flask import Flask
 from sentry_sdk.integrations.flask import FlaskIntegration
 
 sentry_sdk.init(
-    dsn="http://bf78a364097540c4b535c73bf598b9fb@localhost:8000/1",
+    dsn="http://49c960188e2645c48423e9a406d4ddbb@dev.getsentry.net:8000/8",
+    environment="this environment",
     integrations=[FlaskIntegration()]
 )
 
