@@ -4,6 +4,7 @@ from sentry_sdk.integrations.flask import FlaskIntegration
 
 sentry_sdk.init(
     dsn="http://49c960188e2645c48423e9a406d4ddbb@dev.getsentry.net:8000/8",
+
     environment="this environment",
     integrations=[FlaskIntegration()]
 )
